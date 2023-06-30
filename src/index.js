@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ContextWeatheApp from './Context/ContextWeatheApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <ContextWeatheApp>
     <App />
+    </ContextWeatheApp>
   </React.StrictMode>
 );
 
